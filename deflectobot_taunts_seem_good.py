@@ -4,7 +4,7 @@ from minions.deflectobot import DeflectOBot
 from optimize import optimize
 
 
-opposition = [Minion(health=20, attack=20) for _ in range(7)]
+opposition = [Minion(health=15, attack=15) for _ in range(7)]
 
 no_taunts = [
     MechanizedGiftHorse(),

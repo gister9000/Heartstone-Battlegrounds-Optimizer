@@ -36,7 +36,6 @@ def simulate_attack(attacker_team, defender_team, attacker_index):
         attacker_team = [minion for minion in attacker_team if minion.is_alive()]
         for minion in attacker.deathrattle():
             summon_minion(minion=minion, team=attacker_team, index=attacker_index)
-            attacker_index -= 1
 
     if not defender.is_alive():
         print(f"{str(defender)} dies")
