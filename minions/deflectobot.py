@@ -2,8 +2,8 @@ from minions.minion import Minion
 
 
 class DeflectOBot(Minion):
-    def __init__(self):
-        super().__init__(health=6, attack=3, divine_shield=True)
+    def __init__(self, taunt=False):
+        super().__init__(health=6, attack=3, divine_shield=True, taunt=taunt)
 
     def on_minion_summon(self):
         if not self.divine_shield:
