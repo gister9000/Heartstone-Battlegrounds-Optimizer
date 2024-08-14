@@ -1,5 +1,5 @@
 from minions.minion import Minion
-from minions.small_horse import Mechapony
+from minions.mechapony import Mechapony
 
 
 class MechanizedGiftHorse(Minion):
